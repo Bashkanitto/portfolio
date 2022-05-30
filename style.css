@@ -36,10 +36,13 @@ body{
 .logo{
     margin-right: 80px;
 }
-.fon{
-    background-image: url(../Burning_man-master/header-bg.jpg );
-    background-repeat: no-repeat;
-    background-size: cover;
+.fon-img{
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 1910px;
+    height: 1000px;
 }
 header{
   
